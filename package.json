@@ -1,0 +1,24 @@
+{
+    "name": "nodejs-api-processor",
+    "version": "1.0.0",
+    "description": "Programa Node.js que processa lista de itens via POST e faz requisições para API externa",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "axios": "^1.6.0",
+        "cors": "^2.8.5"
+    },
+    "keywords": [
+        "nodejs",
+        "express",
+        "api",
+        "post"
+    ],
+    "author": "Manus",
+    "license": "MIT",
+    "devDependencies": {}
+}
